@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Instantiating Appium Driver]]>
+    </line>
+    <line>
+      <![CDATA[Instantiated Appium Driver and Application Under Test has been lauched.]]>
+    </line>
+    <line>
+      <![CDATA[Test Name: Validate rating displayed in movie details page.]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Guest Mode if welcome page is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Application is in Home Screen]]>
+    </line>
+    <line>
+      <![CDATA[Selected OnDemand]]>
+    </line>
+    <line>
+      <![CDATA[Selected Category as Movies]]>
+    </line>
+    <line>
+      <![CDATA[Selected a Movie with Rating '18A']]>
+    </line>
+    <line>
+      <![CDATA[Success: Content rating in the list is matching with the rating displayed in content details page.]]>
+    </line>
+    <line>
+      <![CDATA[Test has been completed. Appium driver instance has been terminated.]]>
+    </line>
+  </reporter-output>
+  <suite name="Appium Android Suite" duration-ms="61354" started-at="2022-10-18T01:11:12Z" finished-at="2022-10-18T01:12:14Z">
+    <groups>
+    </groups>
+    <test name="OptikTvTests" duration-ms="61354" started-at="2022-10-18T01:11:12Z" finished-at="2022-10-18T01:12:14Z">
+      <class name="OptikTvTests.RatingsTest">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:OptikTvTests.RatingsTest@8e0379d]" name="driverSetup" is-config="true" duration-ms="13160" started-at="2022-10-17T21:11:12Z" finished-at="2022-10-17T21:11:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Instantiating Appium Driver]]>
+            </line>
+            <line>
+              <![CDATA[Instantiated Appium Driver and Application Under Test has been lauched.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="validateRatingInDetailsPage()[pri:0, instance:OptikTvTests.RatingsTest@8e0379d]" name="validateRatingInDetailsPage" duration-ms="47461" started-at="2022-10-17T21:11:26Z" finished-at="2022-10-17T21:12:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Name: Validate rating displayed in movie details page.]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Guest Mode if welcome page is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Application is in Home Screen]]>
+            </line>
+            <line>
+              <![CDATA[Selected OnDemand]]>
+            </line>
+            <line>
+              <![CDATA[Selected Category as Movies]]>
+            </line>
+            <line>
+              <![CDATA[Selected a Movie with Rating '18A']]>
+            </line>
+            <line>
+              <![CDATA[Success: Content rating in the list is matching with the rating displayed in content details page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateRatingInDetailsPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:OptikTvTests.RatingsTest@8e0379d]" name="tearDown" is-config="true" duration-ms="718" started-at="2022-10-17T21:12:13Z" finished-at="2022-10-17T21:12:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test has been completed. Appium driver instance has been terminated.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- OptikTvTests.RatingsTest -->
+    </test> <!-- OptikTvTests -->
+  </suite> <!-- Appium Android Suite -->
+</testng-results>
